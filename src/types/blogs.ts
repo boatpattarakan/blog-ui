@@ -7,4 +7,11 @@ export interface IAttribute {
   title: string;
   description: string;
   detail: string;
+  thumbnail: {
+    data: {
+      attributes: {
+        url: string;
+      };
+    }
+  }
 }
